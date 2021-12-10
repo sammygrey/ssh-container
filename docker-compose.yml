@@ -7,7 +7,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Europe/London #set to your timezone
       - PUBLIC_KEY=yourpublickey #optional
       - PUBLIC_KEY_FILE=/path/to/file #optional
       - PUBLIC_KEY_DIR=/path/to/directory/containing/_only_/pubkeys #optional
@@ -20,5 +20,5 @@ services:
     volumes:
       - /path/to/appdata/config:/config
     ports:
-      - 2222:2222
+      - 2222:2222 #set to whatever ports you want
     restart: unless-stopped
