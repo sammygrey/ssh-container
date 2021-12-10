@@ -5,8 +5,8 @@ caproverOneClickApp:
         end: The container is built and deployed. You can now connect to this container from your local machine by running the following command: 
             ssh root@IpAddressOfServer -p port
 ########
-
 version: "2.1"
+
 services:
   openssh-server:
     image: lscr.io/linuxserver/openssh-server
