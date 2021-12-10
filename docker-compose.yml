@@ -1,3 +1,11 @@
+captainVersion: 4
+caproverOneClickApp:
+    instructions:
+        start: The following app sets up an SSHd service in a container that you can use to connect to and inspect other container’s volumes, or to get quick access to a test container.
+        end: The container is built and deployed. You can now connect to this container from your local machine by running the following command: 
+            ssh root@IpAddressOfServer -p port
+########
+
 version: "2.1"
 services:
   openssh-server:
